@@ -1,0 +1,10 @@
+{
+
+    "allowedExtensions":[".less"],
+    "minified": false,
+    "sourceMap":false,
+    "watchfolder": "less",
+    "outputFolder": "css"
+    
+
+}

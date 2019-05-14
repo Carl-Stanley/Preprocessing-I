@@ -7,35 +7,78 @@ html {
 
     font-size: 1rem;
 
+    body {
+
+        width: @Standard-Width;
+        margin: 0 auto;
+    }
+
 }
 
 h1 {
 
-    font-size: 4rem;
+    font-size: 1.5rem;
 
 }
 
 h2 {
 
-    font-size: 3.5rem;
+    font-size: 1rem;
 
 }
 
 h3 {
 
-    font-size: 3rem;
+    font-size: .95rem;
 
 }
 
 h4 {
 
-    font-size: 2.5rem;
+    font-size: .85rem;
 
 }
 
 p {
 
     line-height: 1;
-    font-size: 1.6rem;
+    font-size: .85rem;
 
+}
+
+.container {
+
+    .Nav-Top {
+
+        border: 1px solid black;
+
+        a {
+
+            text-decoration: none;
+            font-size: .95rem;
+
+        }
+    }
+
+    .Nav-Bottom {
+
+        a {
+
+            text-decoration: none;
+            font-size: .95rem;
+
+        }
+
+
+    }
+
+}
+
+@media(max-width: @Mobile-Width) {
+    
+    .container {
+      
+        width: 500px;
+      
+    }
 }

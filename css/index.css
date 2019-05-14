@@ -169,6 +169,17 @@ p {
   line-height: 1;
   font-size: 0.85rem;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container .Nav-Top {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 .container .Nav-Top a {
   text-decoration: none;
   font-size: 0.95rem;
@@ -176,6 +187,13 @@ p {
 .container .a-top {
   text-decoration: none;
   font-size: 0.95rem;
+}
+.container .Nav-Bottom {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 .container .Nav-Bottom a {
   text-decoration: none;

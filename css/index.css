@@ -135,6 +135,14 @@ html,
 body {
   height: 100%;
 }
+.a-font {
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.p-font {
+  line-height: 1;
+  font-size: 0.85rem;
+}
 * {
   box-sizing: border-box;
 }
@@ -161,10 +169,11 @@ p {
   line-height: 1;
   font-size: 0.85rem;
 }
-.container .Nav-Top {
-  border: 1px solid black;
-}
 .container .Nav-Top a {
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.container .a-top {
   text-decoration: none;
   font-size: 0.95rem;
 }
